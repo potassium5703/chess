@@ -19,3 +19,5 @@ func isInt(p string) bool {
 	}
 	return true
 }
+
+func reverseY(i int) int { return (i - 8) * (-1) }
