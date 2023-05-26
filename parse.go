@@ -5,7 +5,7 @@ import (
 )
 
 // https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation
-type FEN string 
+type FEN string
 
 func (f FEN) Parse() Board {
 	// строка p может содержать:

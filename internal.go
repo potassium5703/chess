@@ -19,4 +19,3 @@ func isInt(p string) bool {
 	}
 	return true
 }
-
